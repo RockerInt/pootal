@@ -1,5 +1,4 @@
 "use strict";
-importScripts('/cache-polyfill.js');
 var precacheConfig = [],
     cacheName = (self.registration ? self.registration.scope : ""),
     ignoreUrlParametersMatching = [/^utm_/],
